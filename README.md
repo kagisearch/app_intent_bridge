@@ -45,4 +45,4 @@ AppIntentBridge.instance.intentStream.listen((intent) {
 });
 ```
 
-See the Example project for more details.
+See the [Example](example) project for more details.
