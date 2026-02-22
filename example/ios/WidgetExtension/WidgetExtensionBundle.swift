@@ -1,10 +1,3 @@
-//
-//  WidgetExtensionBundle.swift
-//  WidgetExtension
-//
-//  Created by rumori on 2026. 02. 22..
-//
-
 import WidgetKit
 import SwiftUI
 
