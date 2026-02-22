@@ -4,7 +4,10 @@ A Flutter package to receive iOS App Intents.
 
 # Getting started
 
-Add `app_intent_bridge` to your Flutter project: `flutter pub add app_intent_bridge`
+Add `app_intent_bridge` to your Flutter project:
+``` bash
+flutter pub add app_intent_bridge
+```
 
 In your iOS project `Podfile` add the following for each Widget Extension you want to use intents in:
 ``` ruby
