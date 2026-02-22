@@ -7,7 +7,7 @@ A Flutter package to receive iOS App Intents.
 Add `app_intent_bridge` to your Flutter project: `flutter pub add app_intent_bridge`
 
 In your iOS project `Podfile` add the following for each Widget Extension you want to use intents in:
-```
+``` ruby
 target 'WidgetExtension' do
   use_frameworks!
 
@@ -16,7 +16,7 @@ end
 ```
 
 In you App Intent use the following to send messages to your Flutter app:
-```
+``` swift
 import AppIntents
 import app_intent_bridge
 
@@ -36,7 +36,7 @@ struct ChatIntent: AppIntent {
 ```
 
 In your Flutter app subscribe to the App Intent stream:
-```
+``` dart
 AppIntentBridge.instance.intentStream.listen((intent) {
     debugPrint('App Intent action received ${intent.action} with parameters: ${intent.parameters}';
 });
