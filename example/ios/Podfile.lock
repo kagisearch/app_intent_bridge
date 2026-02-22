@@ -1,0 +1,34 @@
+PODS:
+  - app_intent_bridge (0.1.0):
+    - app_intent_bridge/Plugin (= 0.1.0)
+    - app_intent_bridge/Proxy (= 0.1.0)
+  - app_intent_bridge/Plugin (0.1.0):
+    - app_intent_bridge/Proxy
+    - Flutter
+  - app_intent_bridge/Proxy (0.1.0)
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - app_intent_bridge (from `.symlinks/plugins/app_intent_bridge/ios`)
+  - app_intent_bridge/Proxy (from `.symlinks/plugins/app_intent_bridge/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+EXTERNAL SOURCES:
+  app_intent_bridge:
+    :path: ".symlinks/plugins/app_intent_bridge/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  app_intent_bridge: 862aede64d4bbed4c4d50f917f06b2b4b7d5df52
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+
+PODFILE CHECKSUM: 9b20df144bb66ac52624fe8851d08c23571ed36b
+
+COCOAPODS: 1.16.2
