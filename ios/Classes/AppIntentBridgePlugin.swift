@@ -1,5 +1,6 @@
 import Flutter
 import AppIntents
+import app_intent_bridge_proxy
 
 public class AppIntentBridgePlugin: NSObject, FlutterPlugin {
     public static let shared = AppIntentBridgePlugin()
