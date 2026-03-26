@@ -1,6 +1,6 @@
 name: app_intent_bridge
 description: A Flutter plugin that bridges iOS App Intents to Dart via MethodChannel.
-version: 0.1.0
+version: 0.2.0
 publish_to: 'none'
 
 environment:
