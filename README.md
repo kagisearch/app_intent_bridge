@@ -14,14 +14,14 @@ In your iOS project `Podfile` add the following for each Widget Extension you wa
 target 'WidgetExtension' do
   use_frameworks!
 
-  pod 'app_intent_bridge/Proxy', :path => '.symlinks/plugins/app_intent_bridge/ios'
+  pod 'app_intent_bridge_proxy', :path => '.symlinks/plugins/app_intent_bridge/ios'
 end
 ```
 
 In you App Intent use the following to send messages to your Flutter app:
 ``` swift
 import AppIntents
-import app_intent_bridge
+import app_intent_bridge_proxy
 
 @available(iOS, introduced: 16.0)
 struct ChatIntent: AppIntent {

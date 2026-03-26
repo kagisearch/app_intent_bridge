@@ -1,5 +1,5 @@
 import AppIntents
-import app_intent_bridge
+import app_intent_bridge_proxy
 
 @available(iOS, introduced: 16.0)
 struct VoiceIntent: AppIntent {

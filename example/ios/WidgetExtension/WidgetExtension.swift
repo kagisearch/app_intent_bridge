@@ -128,7 +128,7 @@ struct ChatControlWidget: ControlWidget {
     var body: some ControlWidgetConfiguration {
         StaticControlConfiguration(kind: "ChatControlWidget") {
             ControlWidgetButton(action: ChatIntent()) {
-                Label("Chat", image: "message")
+                Label("Chat", systemImage: "message")
             }
         }
         .displayName("Chat")
@@ -142,7 +142,7 @@ struct VoiceControlWidget: ControlWidget {
     var body: some ControlWidgetConfiguration {
         StaticControlConfiguration(kind: "VoiceControlWidget") {
             ControlWidgetButton(action: VoiceIntent()) {
-                Label("Voice", image: "waveform")
+                Label("Voice", systemImage: "waveform")
             }
         }
         .displayName("Voice")

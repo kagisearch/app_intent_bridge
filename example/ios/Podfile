@@ -38,8 +38,9 @@ end
 
 target 'WidgetExtension' do
   use_frameworks!
+  platform :ios, '13.0'
 
-  pod 'app_intent_bridge/Proxy', :path => '.symlinks/plugins/app_intent_bridge/ios'
+  pod 'app_intent_bridge_proxy', :path => '.symlinks/plugins/app_intent_bridge/ios'
 end
 
 post_install do |installer|
